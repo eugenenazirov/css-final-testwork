@@ -113,6 +113,7 @@ body {
 
 .hero {
     padding: 126px 0 108px;
+    overflow: hidden;
 }
 
 .hero__container {
@@ -253,11 +254,11 @@ body {
 .benefit__number {
     font-size: 60px;
     font-weight: 800;
-    line-height: 0.55;
+    line-height: 0;
     color: #ffffff;
     position: absolute;
     left: calc(50% - 15px);
-    bottom: 0;
+    bottom: 16px;
     transition: 0.3s ease-out;
 }
 
