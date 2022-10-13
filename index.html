@@ -190,22 +190,22 @@
             <form action="https://webhook.site/4c861c0d-1c30-4fdc-8ba1-b40a8b5dc8ad" method="post" class="order__form">
                 <label class="form__label form__label_choice">
                     <span class="form__input-title">Ваш выбор</span>
-                    <input type="text" class="input" placeholder="Напишите, что хотите заказать...">
+                    <input type="text" name="order" class="input" placeholder="Напишите, что хотите заказать...">
                 </label>
                 <label class="form__label">
                     <span class="form__input-title">Заполните данные для заказа</span>
                     <label>
                         <span class="form__silent-label">Ваше имя</span>
-                        <input type="text" class="input input_order-data" placeholder="Ваше имя">
+                        <input type="text" name="name" class="input input_order-data" placeholder="Ваше имя">
                     </label>
                     <label>
                         <span class="form__silent-label">Ваш телефон</span>
-                        <input type="tel" class="input input_order-data" placeholder="+375 (__) ___ - __ - __"
+                        <input type="tel" name="phone" class="input input_order-data" placeholder="+375 (__) ___ - __ - __"
                                maxlength="19">
                     </label>
                 </label>
                 <div class="form__action">
-                    <button class="btn form__btn">Оформить заказ</button>
+                    <button type="submit" class="btn form__btn">Оформить заказ</button>
                 </div>
             </form>
             <div class="strawberry-image strawberry_right">
