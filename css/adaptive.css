@@ -509,10 +509,9 @@
         margin: 0;
         top: 0;
         left: 0;
-        background: #fff4fdd1;
+        background: #fff4fded;
         z-index: 10;
     }
-
 
     .menu.open {
         display: flex;
@@ -554,6 +553,14 @@
         grid-template-columns: repeat(2, minmax(165px, max-content));
         grid-column-gap: 20px;
         grid-row-gap: 36px;
+    }
+
+    .choose {
+        padding: 100px 0;
+    }
+
+    .choose__catalog {
+        margin-top: 122px;
     }
 }
 
@@ -600,10 +607,6 @@
 
     .benefit__description {
         font-size: 13px;
-    }
-
-    .choose {
-        padding: 100px 0;
     }
 
     .order__container {
