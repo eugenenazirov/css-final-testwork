@@ -502,20 +502,21 @@
     }
 
     .menu {
-        display: none;
+        display: flex;
+        align-items: center;
         position: fixed;
         width: 100%;
         height: 100%;
         margin: 0;
         top: 0;
-        left: 0;
+        right: -100%;
         background: #fff4fded;
         z-index: 10;
+        transition: 0.3s ease;
     }
 
     .menu.open {
-        display: flex;
-        align-items: center;
+        right: 0;
     }
 
     .menu__items {
